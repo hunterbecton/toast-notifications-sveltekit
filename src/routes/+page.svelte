@@ -2,7 +2,7 @@
 	import { addToast } from '../lib/store/toasts';
 </script>
 
-<div class="flex items-center justify-center min-w-screen min-h-screen">
+<div class="min-w-screen flex min-h-screen items-center justify-center">
 	<div class="space-y-4">
 		<button
 			type="button"

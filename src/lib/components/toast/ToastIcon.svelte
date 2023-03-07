@@ -20,4 +20,4 @@
 	let iconStyle = toastTypes.find((type) => type.format === toastType).style;
 </script>
 
-<svelte:component this={iconComponent} class="{iconStyle} w-6 h-6" />
+<svelte:component this={iconComponent} class="{iconStyle} h-6 w-6" />
