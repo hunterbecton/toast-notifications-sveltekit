@@ -9,7 +9,9 @@
 </script>
 
 {#if $toasts}
-	<div class="z-30 w-full max-w-xs absolute top-8 right-8 flex flex-col-reverse gap-4">
+	<div
+		class="z-30 w-full max-w-xs absolute top-4 translate-x-1/2 sm:translate-x-0 right-1/2 sm:top-8 sm:right-8 flex flex-col-reverse gap-4"
+	>
 		{#each $toasts as { id, title, message, type } (id)}
 			<div
 				in:fade

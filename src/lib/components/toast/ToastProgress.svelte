@@ -5,7 +5,7 @@
 		{ format: 'default', bgStyle: 'bg-neutral-200', barStyle: 'bg-neutral-500' },
 		{ format: 'brand', bgStyle: 'bg-brand-200', barStyle: 'bg-brand-500' },
 		{ format: 'success', bgStyle: 'bg-green-200', barStyle: 'bg-green-500' },
-		{ format: 'warn', bgStyle: 'bg-yellow-200', barStyle: 'bg-yellow-500' },
+		{ format: 'warning', bgStyle: 'bg-yellow-200', barStyle: 'bg-yellow-500' },
 		{ format: 'error', bgStyle: 'bg-red-200', barStyle: 'bg-red-500' }
 	];
 
